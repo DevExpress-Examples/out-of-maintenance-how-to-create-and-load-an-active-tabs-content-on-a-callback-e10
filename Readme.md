@@ -1,11 +1,11 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
-* [ExternalPageUserControl.ascx](./CS/ExternalPageUserControl.ascx) (VB: [ExternalPageUserControl.ascx.vb](./VB/ExternalPageUserControl.ascx.vb))
+* [ExternalPageUserControl.ascx](./CS/ExternalPageUserControl.ascx) (VB: [ExternalPageUserControl.ascx](./VB/ExternalPageUserControl.ascx))
 * [ExternalPageUserControl.ascx.cs](./CS/ExternalPageUserControl.ascx.cs) (VB: [ExternalPageUserControl.ascx.vb](./VB/ExternalPageUserControl.ascx.vb))
-* [UserControl.ascx](./CS/UserControl.ascx) (VB: [ExternalPageUserControl.ascx.vb](./VB/ExternalPageUserControl.ascx.vb))
+* [UserControl.ascx](./CS/UserControl.ascx) (VB: [ExternalPageUserControl.ascx](./VB/ExternalPageUserControl.ascx))
 * [UserControl.ascx.cs](./CS/UserControl.ascx.cs) (VB: [ExternalPageUserControl.ascx.vb](./VB/ExternalPageUserControl.ascx.vb))
 <!-- default file list end -->
 # How to create and load an active tab's content on a callback

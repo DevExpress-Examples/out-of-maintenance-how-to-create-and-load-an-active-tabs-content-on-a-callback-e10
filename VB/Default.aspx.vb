@@ -5,11 +5,9 @@ Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.ComponentModel
-Imports DevExpress.Web.ASPxDataView
+Imports DevExpress.Web
 Imports System.Text
-Imports DevExpress.Web.ASPxCallback
 Imports System.Xml
-Imports DevExpress.Web.ASPxTabControl
 
 
 Partial Public Class ASPxperience_LoadOnCallback
@@ -38,7 +36,7 @@ Partial Public Class ASPxperience_LoadOnCallback
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
         LoadActiveTabPageContent()
     End Sub
-    Protected Sub ASPxPageControl1_ActiveTabChanged(ByVal source As Object, ByVal e As DevExpress.Web.ASPxTabControl.TabControlEventArgs)
+    Protected Sub ASPxPageControl1_ActiveTabChanged(ByVal source As Object, ByVal e As DevExpress.Web.TabControlEventArgs)
         LoadActiveTabPageContent()
     End Sub
 End Class

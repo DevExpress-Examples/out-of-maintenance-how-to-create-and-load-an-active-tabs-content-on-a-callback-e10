@@ -5,11 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.ComponentModel;
-using DevExpress.Web.ASPxDataView;
+using DevExpress.Web;
 using System.Text;
-using DevExpress.Web.ASPxCallback;
 using System.Xml;
-using DevExpress.Web.ASPxTabControl;
 
 
 public partial class ASPxperience_LoadOnCallback : System.Web.UI.Page {
@@ -35,7 +33,7 @@ public partial class ASPxperience_LoadOnCallback : System.Web.UI.Page {
     protected void Page_Load(object sender, EventArgs e) {
         LoadActiveTabPageContent();
     }
-    protected void ASPxPageControl1_ActiveTabChanged(object source, DevExpress.Web.ASPxTabControl.TabControlEventArgs e) {
+    protected void ASPxPageControl1_ActiveTabChanged(object source, DevExpress.Web.TabControlEventArgs e) {
         LoadActiveTabPageContent();
     }
 }
